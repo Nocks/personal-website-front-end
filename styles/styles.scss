@@ -1,0 +1,151 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    color: #33323D;
+    line-height: 1.5;
+    // line-height: 30px;
+    // a temp hack for debugging
+    height: 2000px;
+}
+
+h1, h2, h3 {
+    font-family: 'Ibarra Real Nova', serif;
+    color: #33323D;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -.45px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -.36px;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -.29px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 30px;
+    color: rgba(51, 50, 61, .8);
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.btn-site {
+    width: 200px;
+    height: 48px;
+    text-transform: uppercase;
+    border: 1px solid #33323D;
+    border-radius: 0;
+}
+
+.btn-about-me {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #203A4C;
+    color: #fff;
+    padding-left: 0;
+
+    &__icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        background-color: rgba(0, 0, 0, .1);
+
+        img {
+            width: 16px;
+            height: 12px;
+        }
+    }
+
+    &__text {
+        text-align: center;
+        width: 138px;
+    }
+}
+
+.main-inner-wrapper {
+    padding: 32px;
+}
+
+.header {
+    // a temp hack for debugging
+    // margin-bottom: 1500px;
+
+    .intro__inner-wrapper {
+        // padding: 0;
+    }
+
+    .intro h1 {
+        line-height: 42px;
+        line-height: 1.1;
+    }
+    
+    .top__content {
+        height: 40vh;
+        background-image: url('../assets/images/header-img.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+.about {
+
+    &__image {
+        height: 800px;
+        background-image: url('../assets/images/enock-addey.jpg');
+        background-size: cover;
+        background-position: center top;
+    }
+
+    &__text {
+        padding-top: 51px;
+
+        h2 {
+            padding-bottom: 28px;
+        }
+    }
+
+    &__right {
+        border-top: 1px solid rgba(51, 50, 61, .15);
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .header {
+
+        .top__content {
+            height: 700px;
+        }
+    }
+
+    .about__text {
+        // padding-left: 10vw;
+    }
+}
