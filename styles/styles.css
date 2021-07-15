@@ -134,6 +134,25 @@ p {
   border-top: 1px solid rgba(51, 50, 61, 0.15);
 }
 
+.home-cta {
+  margin-top: 2rem;
+  position: relative;
+}
+
+.home-cta::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  border: 3px solid #ACCF5B;
+  width: 100%;
+  z-index: -10;
+}
+
+.home-cta__question {
+  width: 350px;
+  z-index: 2;
+}
+
 @media (min-width: 768px) {
   .header .top__content {
     height: 700px;
