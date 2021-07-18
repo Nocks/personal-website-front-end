@@ -117,6 +117,10 @@ p {
   padding: 0;
 }
 
+.header .intro {
+  margin-top: 24px;
+}
+
 .header .intro__inner-wrapper {
   padding: 0;
 }
@@ -124,6 +128,7 @@ p {
 .header .intro h1 {
   line-height: 42px;
   line-height: 1.1;
+  margin-bottom: 2rem;
 }
 
 .header .top__content {
@@ -226,8 +231,25 @@ p {
 }
 
 @media (min-width: 768px) {
+  .header__content-wrapper {
+    position: relative;
+  }
   .header .top__content {
     height: 700px;
+  }
+  .header .intro {
+    position: absolute;
+    bottom: 0;
+  }
+  .header .intro__inner-wrapper {
+    padding: 56px 56px 0 0;
+    background-color: #fff;
+  }
+  .header .btn-about-me {
+    margin-top: 48px;
+  }
+  .about {
+    margin-top: 96px;
   }
   .home-cta {
     margin-top: 96px;

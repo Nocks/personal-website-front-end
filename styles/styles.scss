@@ -100,15 +100,21 @@ p {
 
 .header {
 
-    .intro__inner-wrapper {
-        padding: 0;
+    .intro {
+
+        margin-top: 24px;
+
+        &__inner-wrapper {
+            padding: 0;
+        }
+    
+        & h1 {
+            line-height: 42px;
+            line-height: 1.1;
+            margin-bottom: 2rem;
+        }
     }
 
-    .intro h1 {
-        line-height: 42px;
-        line-height: 1.1;
-    }
-    
     .top__content {
         height: 40vh;
         background-image: url('../assets/images/header-img.jpg');
@@ -225,9 +231,35 @@ p {
 
     .header {
 
-        .top__content {
-            height: 700px;
+        &__content-wrapper {
+            position: relative;
         }
+
+        .top {
+
+            &__content {
+                height: 700px;
+            }
+        }
+
+        .intro {
+
+            position: absolute;
+            bottom: 0;
+
+            &__inner-wrapper {
+                padding: 56px 56px 0 0;
+                background-color: #fff;
+            }
+        }
+
+        .btn-about-me {
+            margin-top: 48px;
+        }
+    }
+
+    .about {
+        margin-top: 96px;
     }
 
     .home-cta {
