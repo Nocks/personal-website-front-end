@@ -109,8 +109,16 @@ p {
   width: 138px;
 }
 
-.main-inner-wrapper {
+.main-outter-wrapper {
   padding: 2rem;
+}
+
+.logo-menu-wrapper {
+  padding: 0;
+}
+
+.header .intro__inner-wrapper {
+  padding: 0;
 }
 
 .header .intro h1 {
@@ -148,6 +156,10 @@ p {
 .home-cta {
   margin-top: 2rem;
   margin-bottom: 80px;
+}
+
+.home-cta__content-wrapper {
+  padding: 0;
 }
 
 .home-cta__line {
