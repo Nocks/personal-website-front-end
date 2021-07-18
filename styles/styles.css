@@ -139,27 +139,40 @@ p {
   background-repeat: no-repeat;
 }
 
+.about {
+  margin-top: 96px;
+}
+
 .about__image {
-  height: 800px;
-  background-image: url("../assets/images/enock-addey.jpg");
+  height: 346px;
+  background-image: url("../assets/images/homepage/mobile/homepage-profile.jpg");
   background-size: cover;
-  background-position: center top;
+  background-repeat: no-repeat;
 }
 
 .about__text {
-  padding-top: 51px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .about__text h2 {
-  padding-bottom: 28px;
+  margin-bottom: 28px;
+}
+
+.about__text .btn {
+  margin-top: 24px;
 }
 
 .about__right {
+  padding-top: 2rem;
+  padding-bottom: 51px;
   border-top: 1px solid rgba(51, 50, 61, 0.15);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+  margin-top: 2rem;
 }
 
 .home-cta {
-  margin-top: 2rem;
+  margin-top: 115px;
   margin-bottom: 80px;
 }
 
@@ -250,6 +263,13 @@ p {
   }
   .about {
     margin-top: 96px;
+  }
+  .about__right {
+    margin-top: 0;
+  }
+  .about__image {
+    height: 600px;
+    background-image: url("../assets/images/homepage/tablet/homepage-profile.jpg");
   }
   .home-cta {
     margin-top: 96px;
