@@ -117,10 +117,12 @@ p {
 
     .top__content {
         height: 40vh;
-        background-image: url('../assets/images/header-img.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        background: {
+            image: url('../assets/images/header-img.jpg');
+            size: cover;
+            position: center;
+            repeat: no-repeat;
+        };
     }
 }
 
@@ -130,9 +132,11 @@ p {
 
     &__image {
         height: 346px;
-        background-image: url('../assets/images/homepage/mobile/homepage-profile.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
+        background: {
+            image: url('../assets/images/homepage/mobile/homepage-profile.jpg');
+            size: cover;
+            position: center;
+        };
     }
 
     &__text {

@@ -147,7 +147,7 @@ p {
   height: 346px;
   background-image: url("../assets/images/homepage/mobile/homepage-profile.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .about__text {
