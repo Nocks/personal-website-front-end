@@ -69,6 +69,13 @@ p {
     color: #fff;
     padding-left: 0;
 
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff;
+    }
+    
+
     &__icon {
         display: flex;
         flex-direction: column;

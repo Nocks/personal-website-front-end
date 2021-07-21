@@ -80,6 +80,10 @@ p {
   padding-left: 0;
 }
 
+.btn-about-me:hover, .btn-about-me:focus, .btn-about-me:active {
+  color: #fff;
+}
+
 .btn-about-me__icon {
   display: -webkit-box;
   display: -ms-flexbox;
